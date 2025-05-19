@@ -93,6 +93,19 @@ git push origin main
 - ตรวจสอบ logs ใน GitHub Actions
 - แก้ไขโค้ดและ push ใหม่
 
+## CI/CD Pipeline Status
+[![CI/CD](https://github.com/TawatchaiTb/Devops/actions/workflows/main.yml/badge.svg)](https://github.com/TawatchaiTb/Devops/actions)
+
+## การทำงานของ CI/CD
+1. เมื่อ push โค้ดขึ้น GitHub:
+   - ระบบจะรัน tests อัตโนมัติ
+   - build Docker image
+   - แจ้งผลการทำงานใน GitHub Actions
+
+2. ดูผลการทำงานได้ที่:
+   - GitHub repository > Actions tab
+   - หรือคลิกที่ badge ด้านบน
+
 ## การเชื่อมต่อกับ GitHub
 
 1. เริ่มต้น Git Repository:
